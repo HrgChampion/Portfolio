@@ -17,6 +17,8 @@ import {
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
+import fitnessPal from "../../assets/images/fitnesspal.png";
+import flash from "../../assets/images/flash.png"
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
@@ -78,7 +80,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/j80t4hR/Screenshot-184.png"
+                  src={fitnessPal}
                   
                   alt="Myfitnesspal"
                 />
@@ -127,7 +129,7 @@ your nutrients, calories, and vitamins for you.
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/tCPBDJz/Screenshot-167.png"
+                  src={flash}
                   alt="Typing"
                 />
               </div>

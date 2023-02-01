@@ -31,7 +31,37 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-          
+        <VerticalTimelineElement
+            date={"May 2022 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+             Frontend Software Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+             Decision Point Pvt. Ltd. 
+            </h4>
+            <p data-aos="fade-right">
+            Developing a bot called Beagle which helps in analysis of data, patterns and behaviour of data.
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"October 2021 - May 2022"}
             contentStyle={{
