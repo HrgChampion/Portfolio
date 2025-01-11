@@ -19,6 +19,7 @@ import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import fitnessPal from "../../assets/images/fitnesspal.png";
 import flash from "../../assets/images/flash.png"
+import video from "../../assets/images/video_recorder.png"
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
@@ -203,6 +204,51 @@ your nutrients, calories, and vitamins for you.
                 </a>
                 <a
                   href="https://github.com/HrgChampion/Mednear-clone.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={video}
+                  alt="video_streaming"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Video Streaming</h2>
+              <p>
+              An app in which you can stream your camera and microphone and get a live video of it. You can record,click pictures while recording,
+              download,delete and can apply filters.
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <DiCss3 />
+              </div>
+              <div>
+                <a
+                  href="https://video-recorder-gallery.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/HrgChampion/video-recording"
                   target="_blank"
                   rel="noreferrer"
                 >
