@@ -19,7 +19,8 @@ import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import fitnessPal from "../../assets/images/fitnesspal.png";
 import flash from "../../assets/images/flash.png"
-import video from "../../assets/images/video_recorder.png"
+import video from "../../assets/images/video_recorder.png";
+import excel from "../../assets/images/excel.png";
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
@@ -260,6 +261,57 @@ your nutrients, calories, and vitamins for you.
             </div>
           </div>
         </div>
+
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={excel}
+                  alt="excel_sheet_clone"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Excel Clone</h2>
+              <p>
+              Clone of Excel sheets having basic functions like copy, cut, paste, delete, undo, redo,font style,font color,basic formulas,cycle detection etc.
+              You can also add new sheets,dowload and upload your file.
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <DiCss3 />
+              </div>
+              <div>
+                <a
+                  href="https://excelsheetclone.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/HrgChampion/video-recording"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
       </div>
     </>
   );
